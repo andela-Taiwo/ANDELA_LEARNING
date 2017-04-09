@@ -27,7 +27,7 @@ var app = require("./aritGeo.js");
 
       it("should return `Arithmetic` for [15, 10, 5, 0, -5, -10]", function() {
         var value =app.aritGeo([15, 10, 5, 0, -5, -10]);
-        expect().toEqual('Arithmetic');
+        expect(value).toEqual('Arithmetic');
       });
 
     });
